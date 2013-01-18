@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="ECTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ECBar</item>
+        <item name="android:editTextBackground">@drawable/ec_text_edit</item>
+    </style>
+    
+    <style name="ECBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+	  	<item name="android:background">@drawable/ec_sep2</item>
+	</style>
+</resources>
